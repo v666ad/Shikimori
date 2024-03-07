@@ -33,7 +33,8 @@ body {
 .b-hot_topics-v2 {
   display: flex;
   overflow-x: scroll;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+  background: transparent; }
   .b-hot_topics-v2 > * {
     min-width: max-content; }
 .b-spoiler_block > span {
