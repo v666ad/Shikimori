@@ -13,19 +13,21 @@
   .p-profiles .profile-head {
     display: flex;
     flex-direction: column; }
-    .p-profiles .profile-head .c-history {
+  .c-brief header {
+    text-align: center; }
+    .c-brief header .c-history {
       display: block;
       width: 100%;
       margin: 0; }
-      .p-profiles .profile-head .c-history > .subheadline:first-child {
+      .c-brief header .c-history > .subheadline:first-child {
         margin-bottom: 5px !important; }
-      .p-profiles .profile-head .c-history > div:last-child {
+      .c-brief header .c-history > div:last-child {
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         margin-bottom: 0; }
-      .p-profiles .profile-head .c-history .entry {
+      .c-brief header .c-history .entry {
         display: block;
         min-width: 100%;
         border: initial;
