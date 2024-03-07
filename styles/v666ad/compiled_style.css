@@ -20,7 +20,7 @@
       display: block;
       width: 100%;
       margin: 0; }
-      .p-profiles .profile-head .c-history .x3 {
+      .p-profiles .profile-head .c-history.x3 {
         margin-bottom: 0; }
       .p-profiles .profile-head .c-history > .subheadline:first-child {
         margin-bottom: 5px !important; }
