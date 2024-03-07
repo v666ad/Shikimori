@@ -1,0 +1,28 @@
+@media (max-width: 767px)
+  .p-profiles .profile-head
+    display: flex
+    flex-direction: column
+
+    .c-history
+      display: block
+      width: 100%
+      margin: 0
+
+      >
+        .subheadline:first-child
+          margin-bottom: 5px !important
+
+        div:last-child
+          display: flex
+          flex-direction: row
+          overflow-x: scroll
+          scroll-snap-type: x mandatory
+          margin-bottom: 0
+
+      .entry
+        display: block
+        min-width: 100%
+        border: initial
+        scroll-snap-align: center
+        margin: 0
+        padding: 0
