@@ -5,6 +5,12 @@
     max-height: 100svh;
     overflow: initial;
     overflow-y: scroll; }
+.b-hot_topics-v2 {
+  display: flex;
+  overflow-x: scroll;
+  flex-wrap: nowrap; }
+  .b-hot_topics-v2 > * {
+    min-width: max-content; }
 .b-spoiler_block > span {
   width: 100%; }
   .b-spoiler_block > span:after {
