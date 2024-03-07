@@ -10,7 +10,7 @@ body {
 
 @media screen and (max-width: 1023px) {
   body {
-    background-image: var(--background-image); } }
+    background-image: var(--background-image) !important; } }
 .l-top_menu-v2 {
   --top-menu-height: var(--height-top-menu);
   position: sticky;
