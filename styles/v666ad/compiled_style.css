@@ -2,7 +2,7 @@
   position: sticky;
   top: 0; }
   .l-top_menu-v2 .submenu {
-    max-height: calc(100dvh - var(--top-menu-height));
+    max-height: calc(100vh - 112px);
     overflow: initial;
     overflow-y: scroll; }
 .b-spoiler_block > span {
