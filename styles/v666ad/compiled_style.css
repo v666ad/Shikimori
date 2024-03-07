@@ -26,8 +26,9 @@
   overflow-x: scroll;
   height: 80px; }
   .p-profiles-show .cc-friends .b-user {
-    min-width: 50px;
-    margin-right: 10px !important; }
+    min-width: 50px; }
+    .p-profiles-show .cc-friends .b-user:not(last-child) {
+      margin-right: 10px !important; }
     .p-profiles-show .cc-friends .b-user.avatar a:after {
       content: attr(title);
       display: inline-block;
