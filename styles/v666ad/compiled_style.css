@@ -1,4 +1,5 @@
 :root {
+  --height-top-menu: 54px;
   --background-image: url(//i.imgur.com/2oiYCfE.jpg); }
 body {
   background-image: var(--background-image);
@@ -7,10 +8,11 @@ body {
   background-attachment: fixed;
   background-position: center; }
 .l-top_menu-v2 {
+  --top-menu-height: var(--height-top-menu);
   position: sticky;
   top: 0; }
   .l-top_menu-v2 .submenu {
-    max-height: calc(100svh - var(--top-menu-height));
+    max-height: calc(100svh - var(--height-top-menu));
     overflow: initial;
     overflow-y: scroll; }
 .b-hot_topics-v2 {
