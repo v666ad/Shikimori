@@ -1,3 +1,7 @@
+:root {
+  --background-image: url(//i.imgur.com/2oiYCfE.jpg); }
+body {
+  background-image: var(--background-image); }
 .l-top_menu-v2 {
   position: sticky;
   top: 0; }
