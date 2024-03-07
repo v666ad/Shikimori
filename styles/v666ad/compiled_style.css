@@ -27,7 +27,7 @@
   height: 80px; }
   .p-profiles-show .cc-friends .b-user {
     min-width: 50px;
-    margin-right: 10px; }
+    margin-right: 10px !important; }
     .p-profiles-show .cc-friends .b-user.avatar a:after {
       content: attr(title);
       display: inline-block;
