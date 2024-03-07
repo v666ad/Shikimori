@@ -15,20 +15,20 @@
   width: 100%; }
   .b-spoiler_block > span:after {
     margin-left: auto; }
-.p-profiles .profile-head .c-brief header {
+.p-profiles-show .profile-head .c-brief header {
   text-align: center; }
 
-.p-profiles .profile-content .c-right .cc-2a {
+.p-profiles-show .profile-content .c-right .cc-2a {
   margin-bottom: 0px !important; }
 
-.p-profiles .cc-friends {
+.p-profiles-show .cc-friends {
   display: flex;
   overflow-x: scroll;
   height: 80px; }
-  .p-profiles .cc-friends .b-user {
+  .p-profiles-show .cc-friends .b-user {
     min-width: 50px;
     margin-right: 10px; }
-    .p-profiles .cc-friends .b-user.avatar a:after {
+    .p-profiles-show .cc-friends .b-user.avatar a:after {
       content: attr(title);
       display: inline-block;
       width: 100%;
@@ -38,33 +38,33 @@
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis; }
-    .p-profiles .cc-friends .b-user.avatar img {
+    .p-profiles-show .cc-friends .b-user.avatar img {
       width: 100%; }
 
 @media (max-width: 767px) {
-  .p-profiles .profile-head {
+  .p-profiles-show .profile-head {
     display: flex;
     flex-direction: column; }
-    .p-profiles .profile-head .c-history {
+    .p-profiles-show .profile-head .c-history {
       display: block;
       width: 100%;
       margin: 0; }
-      .p-profiles .profile-head .c-history.x3 {
+      .p-profiles-show .profile-head .c-history.x3 {
         margin-bottom: 0 !important; }
-      .p-profiles .profile-head .c-history > .subheadline:first-child {
+      .p-profiles-show .profile-head .c-history > .subheadline:first-child {
         margin-bottom: 5px !important; }
-      .p-profiles .profile-head .c-history > div:last-child {
+      .p-profiles-show .profile-head .c-history > div:last-child {
         display: flex;
         flex-direction: row;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
         margin-bottom: 0; }
-      .p-profiles .profile-head .c-history .entry {
+      .p-profiles-show .profile-head .c-history .entry {
         display: block;
         min-width: 100%;
         border: initial;
         scroll-snap-align: center;
         margin: 0 0 10px 5px;
         padding: 0; }
-        .p-profiles .profile-head .c-history .entry:first-child {
+        .p-profiles-show .profile-head .c-history .entry:first-child {
           margin-top: 0; } }
