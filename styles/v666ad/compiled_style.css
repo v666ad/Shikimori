@@ -43,6 +43,8 @@ body {
     margin-left: auto; }
 .p-profiles-show .profile-head .c-brief header {
   text-align: center; }
+  .p-profiles-show .profile-head .c-brief header.head .misc {
+    position: absolute; }
 
 .p-profiles-show .profile-content .c-right .cc-2a {
   margin-bottom: 0px !important; }
