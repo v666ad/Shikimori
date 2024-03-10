@@ -37,6 +37,13 @@ body {
   background: transparent; }
   .b-hot_topics-v2 > * {
     min-width: max-content; }
+.b-comments-notifier {
+  top: 0 !important;
+  width: 2rem;
+  height: 2rem;
+  margin-top: 4rem;
+  border-radius: 2px;
+  line-height: 2rem; }
 .b-spoiler_block > span {
   width: 100%; }
   .b-spoiler_block > span:after {
