@@ -58,10 +58,11 @@ body {
     display: flex;
     flex-direction: column; }
     .p-profiles-show .profile-head .c-brief .avatar {
-      margin-right: 0;
+      margin-right: 0; }
+    .p-profiles-show .profile-head .c-brief header.head {
       display: flex;
       flex-direction: column; }
-      .p-profiles-show .profile-head .c-brief .avatar .misc {
+      .p-profiles-show .profile-head .c-brief header.head .misc {
         position: static; }
     .p-profiles-show .profile-head .c-history {
       display: block;
