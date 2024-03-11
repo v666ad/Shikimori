@@ -65,13 +65,24 @@ body {
   .p-profiles-show .profile-head {
     display: flex;
     flex-direction: column; }
-    .p-profiles-show .profile-head .c-brief .avatar {
-      margin-right: 0; }
-    .p-profiles-show .profile-head .c-brief header.head {
+    .p-profiles-show .profile-head .c-brief {
       display: flex;
-      flex-direction: column; }
-      .p-profiles-show .profile-head .c-brief header.head .misc {
-        position: static; }
+      flex-direction: column;
+      text-align: center; }
+      .p-profiles-show .profile-head .c-brief .avatar {
+        margin: 0 auto;
+        width: 160px;
+        height: 160px; }
+        .p-profiles-show .profile-head .c-brief .avatar img {
+          height: 100%;
+          width: 100%; }
+      .p-profiles-show .profile-head .c-brief h1.aliases:after {
+        position: absolute; }
+      .p-profiles-show .profile-head .c-brief header.head {
+        display: flex;
+        flex-direction: column; }
+        .p-profiles-show .profile-head .c-brief header.head .misc {
+          position: static; }
     .p-profiles-show .profile-head .c-history {
       display: block;
       width: 100%;
