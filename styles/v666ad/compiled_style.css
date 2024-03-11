@@ -33,6 +33,8 @@ body {
 .headline, .midheadline, .subheadline {
   border-left: none;
   border-radius: 8px 8px 0 0; }
+.b-modal .inner {
+  border-radius: 3px; }
 .b-hot_topics-v2 {
   display: flex;
   overflow-x: scroll;
