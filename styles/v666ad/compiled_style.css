@@ -83,6 +83,8 @@ body {
         flex-direction: column; }
         .p-profiles-show .profile-head .c-brief header.head .misc {
           position: static; }
+    .p-profiles-show .profile-head .c-mobile-actions {
+      text-align: center; }
     .p-profiles-show .profile-head .c-history {
       display: block;
       width: 100%;
