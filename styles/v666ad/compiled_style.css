@@ -86,9 +86,8 @@ body {
     .p-profiles-show .profile-head .c-history {
       display: block;
       width: 100%;
-      margin: 0; }
-      .p-profiles-show .profile-head .c-history.x3 {
-        margin-bottom: 0 !important; }
+      margin: 0;
+      margin-bottom: 0 !important; }
       .p-profiles-show .profile-head .c-history > .subheadline:first-child {
         margin-bottom: 5px !important; }
       .p-profiles-show .profile-head .c-history > div:last-child {
@@ -96,13 +95,13 @@ body {
         flex-direction: row;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
-        margin-bottom: 0; }
-      .p-profiles-show .profile-head .c-history .entry {
-        display: block;
-        min-width: 100%;
-        border: initial;
-        scroll-snap-align: center;
-        margin: 0 0 10px 5px;
-        padding: 0; }
-        .p-profiles-show .profile-head .c-history .entry:first-child {
-          margin-top: 0; } }
+        margin-bottom: 10px; }
+        .p-profiles-show .profile-head .c-history > div:last-child .entry {
+          display: block;
+          min-width: 100%;
+          border: initial;
+          scroll-snap-align: center;
+          margin: 0 0 0 5px;
+          padding: 0; }
+          .p-profiles-show .profile-head .c-history > div:last-child .entry:first-child {
+            margin-top: 0; } }
